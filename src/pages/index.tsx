@@ -1,5 +1,7 @@
-import Home from 'ui/pages/Home'
+import Link from 'next/link'
 
-export default function HomeRoute() {
-  return <Home />
+const Home = () => {
+  return <Link href="/auth">Auth</Link>
 }
+
+export default Home
